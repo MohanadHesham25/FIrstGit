@@ -27,10 +27,10 @@ int main()
         }
 
 
-       std::cout << "Sum = " << Sum << std::endl;
-       std::cout << "largest = " << Largest << std::endl;
-       std::cout << "Smallest = " << Smallest << std::endl;
-       std::cout << "Number of 0 digit = " << num0;
+       cout << "Sum = " << Sum << endl;
+       cout << "largest = " << Largest << endl;
+       cout << "Smallest = " << Smallest << endl;
+       cout << "Number of 0 digit = " << num0;
     }
     else std::cout << "Invalid input";
     return 0;
