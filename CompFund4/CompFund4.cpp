@@ -1,4 +1,7 @@
 #include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
 int main()
 {
     int num0 = 0;
@@ -6,8 +9,8 @@ int main()
     int Smallest = 9;
     int Sum = 0;
     int n;
-    std::cout << "Enter a number between 999 and 9999999: ";
-    std::cin >> n;
+    cout << "Enter a number between 999 and 9999999: ";
+    cin >> n;
     if (n >= 999 && n <= 9999999) {
         while (n > 0) {
             Sum = Sum + n % 10;
@@ -32,7 +35,7 @@ int main()
        cout << "Smallest = " << Smallest << endl;
        cout << "Number of 0 digit = " << num0;
     }
-    else std::cout << "Invalid input";
+    else cout << "Invalid input";
     return 0;
 }
 
